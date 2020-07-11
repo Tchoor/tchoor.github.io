@@ -51,20 +51,12 @@ body {
   background-color: #AAACB2;
 }
 
-.navbar-dark {
-    background-color: #174048;
-}
-
-.navbar:hover {
-  color: white;
-}
-
-svg, .svg {
+svg {
   fill: #AAACB2;
   width: 2em;
   height: 2em;
 }
-svg:hover, .svg:hover {
+svg:hover {
   fill: white;
 }
 
@@ -72,16 +64,15 @@ svg:hover, .svg:hover {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 50px; /* Place the button at the bottom of the page */
-  right: 10px; /* Place the button 30px from the right */
+  right: 10px; /* Place the button from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none;
   outline: none; /* Remove outline */
   background-color: #174048; /* Set a background color */
-  color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 10px; /* Increase font size */
 }
 
 #myBtn:hover {
@@ -92,21 +83,13 @@ svg:hover, .svg:hover {
 h1 {
   text-align: center;
   text-transform: uppercase;
-      font-family: 'Fita_Poluustav';
+    font-family: 'Fita_Poluustav';
     font-size: 25px;
     color: white;
 }
 
 .text {
     padding: 10px;
-}
-
-.btn-primary {
-  background-color: #619AA9;
-}
-
-.column {
-  display: inline-block;
 }
 
 .buffer {
