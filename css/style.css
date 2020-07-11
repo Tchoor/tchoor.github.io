@@ -1,0 +1,123 @@
+html {
+  width: 100%;
+  height: 100%;
+  color: #001E23;
+  background-color: #174048;
+  /*Responsive background picture*/
+/*  background: url(bg/header_slideshow2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+@font-face {
+    font-family: 'Fita_Poluustav';
+    src: url('fonts/Fita_Poluustav.woff2') format('woff2'),
+        url('fonts/Fita_Poluustav.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TriodPostnaja';
+    src: url('fonts/TriodPostnaja.woff2') format('woff2'),
+        url('fonts/TriodPostnaja.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lazov';
+    src: url('fonts/Lazov.woff2') format('woff2'),
+        url('fonts/Lazov.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.triod {
+    font-family: 'TriodPostnaja';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lazov {
+    font-family: 'Lazov';
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #AAACB2;
+}
+
+.navbar-dark {
+    background-color: #174048;
+}
+
+svg, .svg {
+  fill: #AAACB2;
+  width: 3em;
+  height: 3em;
+}
+svg:hover {
+  fill: white;
+}
+
+.svg:hover {
+  fill: white;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none; /* Remove outline */
+  background-color: #174048; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: black; /* Add background color on hover */
+
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+      font-family: 'Fita_Poluustav';
+    font-size: 25px;
+    color: white;
+}
+
+.text {
+    padding: 10px;
+}
+
+.btn-primary {
+  background-color: #619AA9;
+}
+
+.column {
+  display: inline-block;
+}
+
+.buffer {
+  background-color: #174048;
+  height: 40px;
+}
+
+.footer {
+  background-color: #848484;
+  height: 30px;
+  text-align: right;
+  padding-right: 10px;
+  color: white;
+}
