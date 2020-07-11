@@ -55,16 +55,16 @@ body {
     background-color: #174048;
 }
 
-svg, .svg {
-  fill: #AAACB2;
-  width: 3em;
-  height: 3em;
-}
-svg:hover {
-  fill: white;
+.navbar:hover {
+  color: white;
 }
 
-.svg:hover {
+svg, .svg {
+  fill: #AAACB2;
+  width: 2em;
+  height: 2em;
+}
+svg:hover, .svg:hover {
   fill: white;
 }
 
