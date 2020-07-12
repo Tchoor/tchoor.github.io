@@ -54,7 +54,9 @@ h1 {
 }
 
 .text {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   padding: 10px;
 }
@@ -62,7 +64,9 @@ h1 {
 
 .buffer, .footer {
   width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #343A40;
     color: white;
 }
