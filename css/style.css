@@ -29,13 +29,20 @@ h1 {
           justify-content: center;
   width: 100%;
   padding: 10px;
+  align-content: center;
 }
 
+.buffer {
+  background-color: #343A40;
+    color: white;
+    text-align: center;
+}
 
-.buffer, .footer {
+.footer {
   background-color: #343A40;
     color: white;
     font-size: 0.6em;
+       text-align: center;
 }
 
 #myBtn {
