@@ -3,48 +3,13 @@ html {
   height: 100%;
   color: #001E23;
   background-color: #174048;
+  font-family: "Helvetica Neue",Arial,sans-serif;
   /*Responsive background picture*/
 /*  background: url(bg/header_slideshow2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-}
-
-@font-face {
-    font-family: 'Fita_Poluustav';
-    src: url('fonts/Fita_Poluustav.woff2') format('woff2'),
-        url('fonts/Fita_Poluustav.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TriodPostnaja';
-    src: url('fonts/TriodPostnaja.woff2') format('woff2'),
-        url('fonts/TriodPostnaja.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lazov';
-    src: url('fonts/Lazov.woff2') format('woff2'),
-        url('fonts/Lazov.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.triod {
-    font-family: 'TriodPostnaja';
-    font-weight: 500;
-    font-style: normal;
-}
-
-.lazov {
-    font-family: 'Lazov';
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
@@ -63,7 +28,7 @@ svg:hover {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 50px; /* Place the button at the bottom of the page */
+  bottom: 10px; /* Place the button at the bottom of the page */
   right: 10px; /* Place the button from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none;
@@ -89,18 +54,15 @@ h1 {
 }
 
 .text {
-    padding: 10px;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
 }
 
-.buffer {
-  background-color: #174048;
-  height: 40px;
-}
 
-.footer {
-  background-color: #848484;
-  height: 30px;
-  text-align: right;
-  padding-right: 10px;
-  color: white;
+.buffer, .footer {
+  width: 100%;
+  justify-content: center;
+  background-color: #343A40;
+    color: white;
 }
