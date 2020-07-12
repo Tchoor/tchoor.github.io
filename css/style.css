@@ -31,8 +31,8 @@ svg:hover {
   bottom: 10px; /* Place the button at the bottom of the page */
   right: 10px; /* Place the button from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none;
-  outline: none; /* Remove outline */
+  border-size: 1px;
+  border-color: black;
   background-color: #174048; /* Set a background color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -42,6 +42,8 @@ svg:hover {
 
 #myBtn:hover {
   background-color: black; /* Add background color on hover */
+  border-size: 1px;
+  border-color: white;
 
 }
 
