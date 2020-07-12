@@ -32,6 +32,22 @@ h1 {
   align-content: center;
 }
 
+.btn{
+  border: none;
+    background-color: #BE7F11;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+}
+
+.btn:hover {
+  border-width: 2px;
+  border-color: white;
+    background-color: orange;
+        color: black;
+
+}
+
 .buffer {
   background-color: #343A40;
     color: white;
