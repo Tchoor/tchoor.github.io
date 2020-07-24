@@ -17,36 +17,54 @@ svg:hover {
 }
 
 h1 {
+  padding-top: 10px;
   text-align: center;
   text-transform: uppercase;
-    font-size: 1.2em;
-    color: white;
+  font-size: 1.2em;
+  color: white;
 }
 
 .text {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 100%;
   padding: 10px;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
+}
+
+.quote {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .btn{
   border: none;
-    background-color: orange;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: black;
+  background-color: orange;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
 }
 
 .btn:hover {
   border-width: 2px;
   border-color: white;
-    background-color: yellow;
-        color: black;
-
+  background-color: yellow;
+  color: black;
 }
 
 iframe {
@@ -60,15 +78,15 @@ iframe {
 
 .buffer {
   background-color: #343A40;
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .footer {
   background-color: #343A40;
-    color: white;
-    font-size: 0.6em;
-       text-align: center;
+  color: white;
+  font-size: 0.6em;
+  text-align: center;
 }
 
 #myBtn {
@@ -91,20 +109,19 @@ iframe {
   border-width: 1px;
   border-color: white;
   color: white;
-
 }
 
 #newsletter {
   text-align: center;
   text-transform: uppercase;
-    font-size: 1.2em;
-    color: orange;
+  font-size: 1.2em;
+  color: orange;
 }
 
 #subscribe_ps {
-    font-size: 0.9em;
-    color: #B9B7B8;
-  }
+  font-size: 0.9em;
+  color: #B9B7B8;
+}
 
 .email {
   margin: 5px;
