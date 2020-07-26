@@ -68,7 +68,7 @@ h1 {
 }
 
 iframe {
-  border: 0;
+  border: 2px;
   height: 550px;
 }
 
@@ -84,7 +84,7 @@ iframe {
 
 .footer {
   background-color: #343A40;
-  color: white;
+  color: #B9B7B8;
   font-size: 0.6em;
   text-align: center;
 }
@@ -122,14 +122,9 @@ iframe {
   margin: 5px;
 }
 
-.img-fluid {
-  margin: 10px;
-}
-
 #photos {
    /* Prevent vertical gaps */
    line-height: 0;
-   
    -webkit-column-count: 5;
    -webkit-column-gap:   0px;
    -moz-column-count:    5;
