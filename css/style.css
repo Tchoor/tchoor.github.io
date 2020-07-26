@@ -14,7 +14,8 @@ svg {
 }
 
 .logo {
-  height: 30px;
+  transform: scale(2); /* 75% of original size*/
+  margin-left: 30px;
 }
 
 svg:hover {
