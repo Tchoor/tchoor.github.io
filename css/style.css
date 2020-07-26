@@ -12,6 +12,11 @@ svg {
   width: 2em;
   height: 2em;
 }
+
+.logo {
+  height: 30px;
+}
+
 svg:hover {
   fill: white;
 }
