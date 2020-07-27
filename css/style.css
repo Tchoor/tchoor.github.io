@@ -20,6 +20,11 @@ svg {
   height: 2em;
 }
 
+a {
+  color: black;
+  font-weight: bold;
+}
+
 .logo {
   -webkit-transform: scale(2);
       -ms-transform: scale(2);
