@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html {
   color: #001E23;
   background-color: #174048;
@@ -14,12 +21,18 @@ svg {
 }
 
 .logo {
-  transform: scale(2); /* % of original size*/
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2); /* % of original size*/
   margin-left: 70px;
 }
 
 svg:hover {
   fill: white;
+}
+
+.cover {
+  width: 100%;
 }
 
 h1 {
@@ -42,6 +55,10 @@ h1 {
 
 p {
   margin-bottom: 0;
+}
+
+.grey_text {
+  color: #B9B7B8;
 }
 
 .quote {
@@ -179,9 +196,10 @@ iframe {
 }
 
 .data-enlargable {
-  width: 100;
+  width: 100%;
 }
 
 .data-enlargable:hover {
+  cursor:-webkit-zoom-in;
   cursor:zoom-in;
 }
