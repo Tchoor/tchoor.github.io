@@ -20,15 +20,24 @@ html {
     white-space: nowrap;
   }
 
+  .navbar-collapse {
+text-align: center;
+  }
+
+  .dropdown-item {
+text-align: center;
+  }
+
 body {
   background-color: #AAACB2;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 svg {
   fill: #AAACB2;
-  width: 2em;
-  height: 2em;
+  width: 1.8em;
+  height: 1.8em;
+  margin: 0.6em;
 }
 
 svg:hover {
@@ -49,8 +58,7 @@ a {
 
 .navbar-text {
     display: inline-block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     margin: 1rem;
 }
 
@@ -71,7 +79,7 @@ h1 {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   -ms-flex-line-pack: center;
   align-content: center;
 }
@@ -91,11 +99,14 @@ p {
 
 .videoWrapper {
   position: relative;
+  padding: 50px;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+
 }
 .videoWrapper iframe {
   position: absolute;
+  padding: 50px;
   top: 0;
   left: 0;
   width: 100%;
@@ -135,7 +146,7 @@ iframe {
 .footer {
   background-color: #343A40;
   color: #B9B7B8;
-  font-size: 0.6em;
+  font-size: 0.8em;
   text-align: center;
 }
 
@@ -169,7 +180,7 @@ iframe {
 }
 
 .email {
-  margin: 5px;
+  margin: 40px;
 }
 
 #photos {
