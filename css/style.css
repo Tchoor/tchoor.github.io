@@ -10,14 +10,29 @@ html {
   background-color: #174048;
 }
 
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+
 body {
   background-color: #AAACB2;
+  font-size: 1.3rem;
 }
 
 svg {
   fill: #AAACB2;
   width: 2em;
   height: 2em;
+}
+
+svg:hover {
+  fill: white;
 }
 
 a {
@@ -32,8 +47,11 @@ a {
   margin-left: 70px;
 }
 
-svg:hover {
-  fill: white;
+.navbar-text {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
 }
 
 .cover {
