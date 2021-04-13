@@ -48,6 +48,18 @@ svg:hover {
   fill: white;
 }
 
+#patreon {
+  fill: #F76754;
+}
+
+#patreon:hover {
+  fill: red;
+}
+
+#telegram:hover {
+  fill: blue;
+}
+
 a {
   color: black;
   font-weight: bold;
